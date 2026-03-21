@@ -1,7 +1,5 @@
-# Latent Water 🌊
+# Latent Water 
 ### Comparing and Traversing Neural Audio Latent Spaces
-
-**Polyxeni Pouliou** · Universitat Pompeu Fabra · [polyxeni.pouliou01@estudiant.upf.edu](mailto:polyxeni.pouliou01@estudiant.upf.edu)
 
 ---
 
@@ -23,7 +21,7 @@ Three water-themed pieces, 30-second segments extracted from the middle of each:
 | audio004–006 | *Wasserklavier* | Luciano Berio | 1965 |
 | audio007–009 | *Ocean Eyes* | Billie Eilish & blackbear | 2016 |
 
-Resampled versions: 24kHz for EnCodec (audio004–006), 44100Hz for RAVE (audio007–009).
+Resampled versions: 24kHz for EnCodec (audio004–006), 44.1kHz for RAVE (audio007–009).
 
 ---
 
@@ -78,7 +76,7 @@ latent_water/
 ├── audio/                  # all audio outputs (001–022)
 ├── figures/                # PCA plots and other visualizations
 ├── latex/                  # ISMIR 2026 paper source
-│   ├── ISMIR2026_fixed.tex
+│   ├── paper.tex
 │   └── references.bib
 ├── utils/
 │   └── ecdc_utils.py       # EnCodec utility functions
